@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loacastic</title>
+  <link rel="stylesheet" href="../dist/css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+</head>
+<body>
+  <div id="overlay"></div>
+    <header>
+      <nav>
+        <span id="logo" class="logo"><img src="../dist/images/locastic-logo-white.svg" alt=""></span>
+        <div class="navbar">
+          <div class="nav_item"><a href="#">Home</a></div>
+          <div class="nav_item works" id="works"><a href="#">Works</a></div>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">Manistra na pome</a>
+            <a href="#">Biftek - Medium rare+</a>
+            <a href="#">Picigin 2016</a>
+            <a href="#">Jos jedan link eto tako</a>
+          </div>
+          <div class="nav_item"><a href="#">About Us</a></div>
+          <div class="nav_item"><a href="#contact">Contact</a></div>
+        </div>
+        <span id="hamburger" class="hamburger"><img src="./images/hamburger-icon.svg" alt="hamburger"></span>
+        <span id="close_Icon" class="close_icon"><img src="./images/close-icon.svg" alt="close-icon"></span>
+      </nav>
+      <div class="dropdown">
+        <div class="navlist" id="navlist">
+          <a href="#" class="drop-item margin_bottom">Home</a>
+          <a href="#" class="drop-item ">Works</a>
+          <a href="#" class="drop-item-small">Manistra na pome</a>
+          <a href="#" class="drop-item-small"><span>Biftek - Medium rare+</span></a>
+          <a href="#" class="drop-item-small">Picigin 2016</a>
+          <a href="#" class="drop-item-small margin_bottom">Jos jedan link eto tako</a>
+          <a href="#" class="drop-item margin_bottom">About us</a>
+          <a href="#contact" class="drop-item">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="banner">
+        <img src="images/slider-image-1024x250.png" class="slider">
+        <h1>Moj najlišši <span class="title">naslov ikad</span></h1>
+        <img src="images/slider-image-1024x250.png" class="slider">
+        <img src="images/slider-image-1024x250.png" class="slider">
+        <div class="previous" data-previous-cursor="images/left.png"></div>
+        <div class="next" data-next-cursor="images/right.png"></div>
+        <div class="links">
+          <a href="#"></a>
+          <a href="#"></a>
+          <a class="selected_dot" href="#"></a>
+        </div>
+      </div>
+      <div id="articles" class="articles">
+        <div class="article">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="article">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="article desktop_only">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="article desktop_only">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="article tablet_only">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="article">
+          <img src="images/content-image.png" alt="Article image">
+          <h2>Roboto 40px Size, Spacing 44px - Comment On The Importance Of Human Life</h2>
+          <p>Roboto Regular, 22px, Spacing 34px - Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <div class="view_full">
+            <span><a href="#">View full article</a></span>
+          </div>
+        </div>
+        <div class="load_more_container">
+          <div id="load" class="load_more">
+            <h5>Load more</h5>
+          </div>
+        </div>
+      </div>
+      <div class="contact_form">
+        <h2>Contact Form</h2>
+        <a name="contact"></a>
+        <form action="" method="POST">
+          <div class="contact_name">
+            <p>Contact name:</p>
+            <input type="text" name="contact_name" required><br>
+          </div>
+          <div class="email_address">
+            <p>Email address:</p>
+            <input type="email" name="email_address" required><br>
+          </div>
+          <div class="message">
+            <p>Message</p>
+            <textarea required></textarea>
+          </div>
+          <div id="submit" class="button"><button name="submit" type="submit" value="Send">Send message</button></div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p class="left">2016 Locastic Teest Page</p>
+      <p class="right">By Frontend Developer</p>
+    </footer>
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/loadMore.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "locastic-1.zadatak",
+  "version": "1.0.0",
+  "description": "Locastic-1.zadatak",
+  "main": "index.js",
+  "scripts": {
+  "sass": "node-sass -w src/scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmilic1994/Locastic-1.zadatak.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmilic1994/Locastic-1.zadatak/issues"
+  },
+  "homepage": "https://github.com/mmilic1994/Locastic-1.zadatak#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
