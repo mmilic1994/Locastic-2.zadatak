@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 if(window.screen.width >= 768 && window.screen.width < 1024){
   hamburger.addEventListener('click', ()=> {
     document.getElementById("overlay").classList.toggle('overlay');;
+    dropDown.style.height = window.screen.availHeight - 75;
   }, false)
   closeIcon.addEventListener('click', ()=> {
     document.getElementById("overlay").classList.toggle('overlay');;

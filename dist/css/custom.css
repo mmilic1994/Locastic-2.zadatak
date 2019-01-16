@@ -399,16 +399,6 @@ span a, span a:visited {
     background-color: #b0b0b0;
     cursor: pointer; }
 
-.red {
-  color: red;
-  font-size: 1.5rem;
-  text-align: center; }
-
-.green {
-  color: green;
-  font-size: 1.5rem;
-  text-align: center; }
-
 footer {
   background-color: #4a4a4a;
   height: 100%;
@@ -506,8 +496,8 @@ footer {
     z-index: 3;
     position: absolute;
     right: 0;
-    padding-top: 3rem;
-    padding-bottom: 30rem; }
+    padding-top: 0rem;
+    padding-bottom: 180rem; }
   .drop-item-small {
     line-height: 36px; } }
 
