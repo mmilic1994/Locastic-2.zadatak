@@ -399,6 +399,16 @@ span a, span a:visited {
     background-color: #b0b0b0;
     cursor: pointer; }
 
+.red {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.green {
+  color: green;
+  font-size: 1.5rem;
+  text-align: center; }
+
 footer {
   background-color: #4a4a4a;
   height: 100%;

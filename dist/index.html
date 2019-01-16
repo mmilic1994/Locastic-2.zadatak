@@ -121,20 +121,21 @@
       <div class="contact_form">
         <h2>Contact Form</h2>
         <a name="contact"></a>
-        <form action="" method="POST">
+        <form id="contact_form">
           <div class="contact_name">
             <p>Contact name:</p>
-            <input type="text" name="contact_name" required><br>
+            <input type="text" name="contact_name" id="contact_name" class="formValue"><br>
           </div>
           <div class="email_address">
             <p>Email address:</p>
-            <input type="email" name="email_address" required><br>
+            <input type="text" name="email_address" id="email_address" class="formValue"><br>
           </div>
           <div class="message">
             <p>Message</p>
-            <textarea required></textarea>
+            <textarea id="message" name="message" class="formValue"></textarea>
           </div>
           <div id="submit" class="button"><button name="submit" type="submit" value="Send">Send message</button></div>
+          <div class="alert" id="alert"></div>
         </form>
       </div>
     </main>
@@ -145,6 +146,7 @@
   <script src="js/main.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/loadMore.js"></script>
+  <script src="js/formValidation.js"></script>
 </body>
 
 </html>

@@ -285,6 +285,8 @@ $desktop-breakpoint: 1024px;
   
     
   }
+
+  
   
   footer {
     background-color: $secondary-color;
@@ -563,6 +565,18 @@ text-align:right;
   }
 
   
+}
+
+ .red {
+  color: red;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.green {
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 footer {
