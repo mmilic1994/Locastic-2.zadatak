@@ -395,6 +395,14 @@ span a, span a:visited {
     height: 80px;
     margin-bottom: 1rem;
     margin-top: 10px; }
+  .contact_form .red {
+    color: red;
+    text-align: center;
+    font-size: 1.5rem; }
+  .contact_form .green {
+    color: green;
+    text-align: center;
+    font-size: 1.5rem; }
   .contact_form button:hover {
     background-color: #b0b0b0;
     cursor: pointer; }

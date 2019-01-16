@@ -12,7 +12,7 @@ function validate_form(e) {
     alert.classList.add('red');
   } else {
     if (contact_name.length < 2) {
-      alert.innerHTML = `Your name must be at least 2 characters!`;
+      alert.innerHTML = `Your name must be at least 2 characters long!`;
       alert.classList.add('red');
     } else {
       var atpos = email_address.indexOf('@');
