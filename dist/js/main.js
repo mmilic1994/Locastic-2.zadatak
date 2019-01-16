@@ -11,6 +11,15 @@ document.addEventListener('DOMContentLoaded', ()=> {
   closeIcon.style.display = 'none';
 })
 
+if(window.screen.width >= 768 && window.screen.width < 1024){
+  hamburger.addEventListener('click', ()=> {
+    document.getElementById("overlay").classList.toggle('overlay');;
+  }, false)
+  closeIcon.addEventListener('click', ()=> {
+    document.getElementById("overlay").classList.toggle('overlay');;
+  }, false) 
+}
+
 hamburger.addEventListener('click', ()=> {
   hamburger.style.display = 'none';
   closeIcon.style.display = 'block';
@@ -35,11 +44,4 @@ dropDownDesktop.addEventListener('click', ()=> {
   document.getElementById("myDropdown").classList.toggle("show");
 }, false)
 
-if(window.screen.width >= 768 && window.screen.width < 1024){
-  hamburger.addEventListener('click', ()=> {
-    document.getElementById("overlay").classList.toggle('overlay');;
-  }, false)
-  closeIcon.addEventListener('click', ()=> {
-    document.getElementById("overlay").classList.toggle('overlay');;
-  }, false) 
-}
+
